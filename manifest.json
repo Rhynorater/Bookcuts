@@ -1,0 +1,62 @@
+{
+    "name": "Bookcuts",
+    "description": "A quick extension to add keyboard shortcuts to bookmarks",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "bookmarks",
+        "commands",
+        "tabs"
+      ],
+    "background": {
+        "service_worker": "background.js"
+      },
+    "commands": {
+        "1": {
+            "suggested_key": {
+            "default": "Ctrl+Shift+1",
+            "mac": "Command+Shift+1"
+        },
+        "description": "Run bookmark in the 1st position."
+        },
+        "2": {
+            "suggested_key": {
+            "default": "Ctrl+Shift+2",
+            "mac": "Command+Shift+2"
+        },
+        "description": "Run bookmark in the 2nd position."
+        },
+        "3": {
+            "suggested_key": {
+            "default": "Ctrl+Shift+3",
+            "mac": "Command+Shift+3"
+        },
+        "description": "Run bookmark in the 3rd position."
+        },
+        "4": {
+            "suggested_key": {
+            "default": "Ctrl+Shift+4",
+            "mac": "Command+Shift+4"
+        },
+        "description": "Run bookmark in the 4th position."
+        },
+        "5": {
+        "description": "Run bookmark in the 5th position."
+        },
+        "6": {
+        "description": "Run bookmark in the 6th position."
+        },
+        "7": {
+        "description": "Run bookmark in the 7th position."
+        },
+        "8": {
+        "description": "Run bookmark in the 8th position."
+        },
+        "9": {
+        "description": "Run bookmark in the 9th position."
+        },
+        "0": {
+        "description": "Run bookmark in the 10th position."
+        }
+    }
+}

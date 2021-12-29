@@ -1,1 +1,2 @@
 # Bookcuts
+This is a short little Chrome extension to assign keyboard shortcuts to you bookmarks. The first 4 bookmarks on your bookmark bar are assigned `Ctrl-Shift-1` through `Ctrl-Shift-4`. The rest can be assigned via the `chrome://extensions/shortcuts` page.
